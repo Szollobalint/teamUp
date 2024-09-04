@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { logo, lock, hamburgerMenu, close } from '../assets';
 
 const Navbar = () => {
@@ -10,6 +10,7 @@ const Navbar = () => {
     const handleClick = () => setToggle(!toggle);
     const location = useLocation();
     const id = localStorage.getItem('userID');
+    const navigate = useNavigate();
 
     useEffect(() => {
         if (id) {
@@ -31,7 +32,7 @@ const Navbar = () => {
         localStorage.removeItem('userID');
         setIsLoggedIn(false);
         setIsAdmin(false);
-        window.location.reload();  // Refresh the page
+        navigate("/");
     };
 
     return (

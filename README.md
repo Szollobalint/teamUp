@@ -2,6 +2,20 @@
 
 **TEAM UP** is a web platform designed for Helldivers 2 players to create and manage guilds, recruit members, and organize events. Players can reserve spots for upcoming events and receive notifications when the event starts, ensuring a seamless and coordinated gaming experience.
 
+## Showcase
+
+### Home page
+
+![Home page](../teamUp/client/src/assets/HomePageSc.png)
+
+### Login page
+
+![Login page](../teamUp/client/src/assets/LoginSc.png)
+
+### Profile page
+
+![Profile page](../teamUp/client/src/assets/ProfilePageSc.png)
+
 ## Installation Instructions
 
 ### 1. Clone the Repository
