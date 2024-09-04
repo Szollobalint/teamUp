@@ -6,15 +6,15 @@
 
 ### Home page
 
-![Home page](../teamUp/client/src/assets/HomePageSc.png)
+![Home page](./client/src/assets/HomePageSc.png)
 
 ### Login page
 
-![Login page](../teamUp/client/src/assets/LoginSc.png)
+![Login page](./client/src/assets/LoginSc.png)
 
 ### Profile page
 
-![Profile page](../teamUp/client/src/assets/ProfilePageSc.png)
+![Profile page](./client/src/assets/ProfilePageSc.png)
 
 ## Installation Instructions
 
