@@ -18,13 +18,27 @@
 
 ## Installation Instructions
 
-### 1. Clone the Repository
+### 1. Download and Install Docker 🐳
+
+1. **Visit the official Docker website**:  
+   👉 [Docker - Get Started](https://www.docker.com/get-started)
+
+2. **Select your Operating System**:  
+   Choose the appropriate option for **Windows**, **macOS**, or **Linux**.
+
+3. **Follow the installation steps**:  
+   Complete the installation process by following the on-screen instructions.
+
+4. **Restart your computer if prompted**:  
+   Ensure the changes take effect by restarting your machine if needed.
+
+### 2. Clone the Repository
 To get started, clone the TEAM UP repository from GitHub:
 ```bash
 git clone git@github.com:Szollobalint/TeamUp-public.git
 ```
 
-### 2. Application Setup With Docker
+### 3. Application Setup With Docker
 Ensure you have Docker Desktop installed.
 
 Create containers:
@@ -39,7 +53,7 @@ Run the application:
 docker compose up
 ```
 
-### 3. Access the Application
+### 4. Access the Application
    Open your web browser and go to http://localhost:5173
 
 1. Register an Account
@@ -47,7 +61,7 @@ docker compose up
    Fill in your details and create an account.
 
    
-### 4. Technologies Used
+### 5. Technologies Used
 
 1. Backend:
 
@@ -69,7 +83,7 @@ docker compose up
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 [![H2](https://img.shields.io/badge/H2-003545?style=for-the-badge&logo=h2&logoColor=white)](https://www.h2database.com/)
 
-### 5. Contact Information
+### 6. Contact Information
 For support or inquiries, please contact:
 - **Email: pzsombor.dev@gmail.com**
 - **Email: szollosybalint24@gmail.com**
